@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: blue;
+    font-weight: 200;
+    background-color: rgb(68, 255, 0);
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
+
+#second-paragraph{
+    color: brown;
+    font-size: larger;
+    background-color: aqua;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#third-paragraph{
+    color: rgb(34, 0, 255);
+    background-color: darkgray;
+}
+
+#fourth-paragraph{
+    font-weight: 900;
+    font-family: serif;
+}
