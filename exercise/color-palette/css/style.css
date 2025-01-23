@@ -7,3 +7,86 @@ body {
     font-family: sans-serif;
 }
 
+#BurlyWood  { 
+    background-color: #deb887;
+    text-align: center;
+    padding: auto;
+    font-family: cursive;
+}
+
+#Sparkice   {
+   background-color: aqua;
+   text-align: center; 
+   padding: auto;
+   font-family: cursive;
+}
+
+#color-of-inspiration   {
+    text-align: center;
+    font-size: 60px;
+    padding: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Spark  {
+    text-align: center;
+    background-color: cadetblue;
+    padding: auto;
+    font-family: cursive;
+}
+
+#Mindsigns  {
+    text-align: center;
+    font-size: 60px;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#dark   {
+    background-color: deeppink;
+    text-align: center;
+    padding: auto;
+    font-family: 'Times New Roman';
+}
+
+#plus   {
+    background-color: lightpink;
+    text-align: center;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#white  {
+    text-align: center;
+    background-color: pink;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#vulture    {   
+    text-align: center;
+    font-size: 60px;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#play   {
+    background-color: yellow;
+    text-align: center;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#of{
+    background-color: yellowgreen;
+    padding: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fire{
+    background-color: #ffebcd;
+    text-align: center;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
