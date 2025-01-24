@@ -9,7 +9,7 @@
 
         .tetris-block  {
             padding: 20px;
-            border-width: 3px;
+            border-width: 12px;
             border-style: solid;
             display: inline-block;
             border-radius: 2px;
