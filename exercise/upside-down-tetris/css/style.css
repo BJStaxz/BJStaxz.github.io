@@ -17,7 +17,7 @@
 
     .red    {
         background-color: red;
-        border-color: red;
+        border-color: green;
     }
 
     .yellow {
@@ -27,16 +27,20 @@
 
     .green  {
         background-color: green;
-        border-color: green;
+        border-color: white;
     }
 
     .aqua   {
         background-color: aqua;
-        border-color: aqua;
+        border-color: blue;
     }
 
     .yellowgreen    {
         background-color: yellowgreen;
-        border-color: yellowgreen;
+        border-color: black;
     }
 
+    .black  {
+        background-color: black;
+        border-color: black;
+    }
