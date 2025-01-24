@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border: 6px dashed;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: yellowgreen;
+}
+
+p   {
+    border: 4px dashed;
+    margin: 24px;
+    padding: 48px 60px;
+    background-color: chartreuse;
+    border-radius: 60px;
+}
