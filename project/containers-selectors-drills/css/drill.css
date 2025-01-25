@@ -2,7 +2,7 @@
 p  {
     container: 24px;
     }
-    
+
 /* Drill 2 - Write your code solution below */
 .purple a {
     color: orangered;
@@ -20,6 +20,6 @@ p  {
     } 
 
 /* Drill 5 - Write your code solution below */
-.dogs-days img {
+.dog-days img {
     border-radius: 50%;
     }
