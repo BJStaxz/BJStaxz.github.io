@@ -1,0 +1,39 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.first-outer-frame  {
+    width: smaller;
+    margin: 10px;
+    padding: 10px 0px;
+}
+
+.first-inner-frame  {
+    padding: 0%;
+}
+
+.first-image    {
+    width: 125px;
+    border: 5px solid black
+}
+
+.second-outer-frame {
+    width: smaller;
+    margin: 10px;
+    padding: 10px 0px;
+}
+
+.second-inner-frame {
+    padding: 10%;
+}
+
+.second-image   {
+    width: 75px;
+    border: 5px solid whitesmoke
+}
+
