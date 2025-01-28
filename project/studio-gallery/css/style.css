@@ -10,7 +10,7 @@
 .first-outer-frame  {
     width: smaller;
     margin: 10px;
-    padding: 10px 0px;
+    padding: 50px 50px;
 }
 
 .first-inner-frame  {
@@ -50,8 +50,17 @@
 .third-image    {
     width: 100px;
     border: 5px solid grey;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: -60px;
 }
 
 .featured-text-outer-frame  {
     font-size: smaller;
+    background-color: deepskyblue;
 }
+
+.featured-inner-frame   {
+    padding: -30%;
+    color: aliceblue;
+    }
