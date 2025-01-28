@@ -37,3 +37,21 @@
     border: 5px solid whitesmoke
 }
 
+.third-outer-frame  {
+    width: smaller;
+    margin: px 10px 10px ;
+    padding: 1%;
+}
+
+.thrid-inner-frame {
+    padding: 0px;
+}
+
+.third-image    {
+    width: 100px;
+    border: 5px solid grey;
+}
+
+.featured-text-outer-frame  {
+    font-size: smaller;
+}
