@@ -18,7 +18,7 @@
 }
 
 .first-image    {
-    width: 125px;
+    width: 100px;
     border: 5px solid black;
 }
 
@@ -52,7 +52,7 @@
     border: 5px solid grey;
     padding: 10px;
     background-color: aliceblue;
-    margin: -60px;
+    margin-top: 45px;
 }
 
 .featured-text-outer-frame  {
