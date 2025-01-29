@@ -11,9 +11,7 @@
     width: 700px;
     border: 3px solid black;
     border-radius: 10px;
-    padding: 24px;
-    display: inline-block; 
-    width: 65%;
+    padding: 24px; 
     background: linear-gradient(lightcoral ,peachpuff);
     box-shadow: 8px 8px black;
 }
@@ -26,25 +24,15 @@
 #right-side {
     display: inline-block; 
     width: 34%;
-    font-size: larger;
 }
 
-div #content image  {
-    width: 700px;
-    border: 3px solid black;
-    border-radius: 20%;
-    padding: 24px;
-    display: inline-block; 
-    width: 65%;
-    background-color: 5px solid yellow;
+#right-side img {
+    width: 100%;
 }
 
 #id-and-expiration div {
     display: inline-block;
-    font-weight: 600;
-    margin: 30px;
-    font-size: 9px;
-    color: red;
+    color: purple;
 }
 
 #small-pic,
@@ -56,13 +44,13 @@ div #content image  {
     height: 50px;
     width: 50px;
     opacity: 0.5;
-    margin: px;
+
 }
 
 #data-left,
 #data-right {
     display: inline-block;
-    color: red;
+    color: purple;
 }
 
 #donor,
@@ -78,14 +66,33 @@ div #content image  {
     background-color: purple;
     color: white;
     padding-left: 20%;
+    padding-bottom: 5px;
+    margin: 5px;
+    padding-top: 5px;
 }
 
 #content h1 {
     font-size: 50px;
     color: purple;
+    margin-bottom: 4px;
+    margin-top: 4px;
 }
 
  div #real-id   {
     background-color: yellow;
     border-radius: 45px;
+}
+
+#data-left span,
+#data-right span {
+    color: red;
+}
+
+#id-and-expiration span {
+    color: red;
+}
+
+#address    {
+    font-weight: 600;
+    color: red;
 }
