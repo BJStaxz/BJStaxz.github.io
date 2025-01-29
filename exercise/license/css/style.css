@@ -13,7 +13,7 @@
     border: 3px solid black;
     border-radius: 10px;
     padding: 24px; 
-    background: linear-gradient(lightcoral ,peachpuff);
+    background: linear-gradient(lightcoral , peachpuff);
     box-shadow: 8px 8px black;
 }
 
@@ -89,7 +89,7 @@
     margin: 2px;
 }
 
- div #real-id   {
+div #real-id   {
     background-color: yellow;
     border-radius: 45px;
 }
