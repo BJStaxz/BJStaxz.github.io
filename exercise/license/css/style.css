@@ -6,6 +6,7 @@
 
     Good luck, and have fun!
 */
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 
 #license    {
     width: 700px;
@@ -33,6 +34,10 @@
 #id-and-expiration div {
     display: inline-block;
     color: purple;
+    padding-top: 8px;
+    padding-right: 30px;
+    padding-left: 4px;
+    padding-bottom: 4px;
 }
 
 #small-pic,
@@ -40,9 +45,16 @@
     display: inline-block;
 }
 
+#small-pic-container,
+#data-fields    {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
 #small-pic-container img  {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 60px;
     opacity: 0.5;
 
 }
@@ -74,8 +86,7 @@
 #content h1 {
     font-size: 50px;
     color: purple;
-    margin-bottom: 4px;
-    margin-top: 4px;
+    margin: 2px;
 }
 
  div #real-id   {
@@ -95,4 +106,13 @@
 #address    {
     font-weight: 600;
     color: red;
+}
+
+#signature  {
+    font-family: "Pinyon Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
 }
