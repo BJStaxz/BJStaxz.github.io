@@ -15,6 +15,7 @@ body {
     height: 775px;
     color: white;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .center-aligned-2   {
@@ -36,15 +37,47 @@ body {
     color: teal;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    box-shadow: 8px 8px navy;
+    box-shadow: 8px 8px white;
     border: 3px solid yellow;
 }
 
-a  {
+.navbar {
+    background-color: black;
     margin-right: auto;
     margin-left: auto;
-    width: 850px;
-    padding: 8%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+a   {
+    display: inline-block;
+    background-color: silver;
+    font-weight: 200;
+    border: 50px;
+    border-radius: 50px;
+}
+
+.mac-and-chesse-1 {
+    border: 1px;
     background-color: black;
-    color: white;
+    border-radius: 15%;
+    width: 50%;
+    padding: 25px;
+}
+
+.mac-and-chesse-2   {
+    border: 1px;
+    background-color: black;
+    border-radius: 15%;
+    width: 50%;
+    padding: 25px;
+}
+
+.mac-and-chesse-3   {
+    border: 1px;
+    background-color: black;
+    border-radius: 15%;
+    width: 50%;
+    padding: 25px;
 }
