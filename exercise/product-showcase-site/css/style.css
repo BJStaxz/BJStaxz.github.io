@@ -39,3 +39,12 @@ body {
     box-shadow: 8px 8px navy;
     border: 3px solid yellow;
 }
+
+a  {
+    margin-right: auto;
+    margin-left: auto;
+    width: 850px;
+    padding: 8%;
+    background-color: black;
+    color: white;
+}
