@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.center-aligned-container {
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
