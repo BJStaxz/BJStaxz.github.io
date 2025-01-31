@@ -6,3 +6,18 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: lightblue;
+    width: 300px;
+    flex: 1;
+}
+
+#main-content {
+    flex: 3;
+    color: black;
+    border: 12px solid red;
+}
