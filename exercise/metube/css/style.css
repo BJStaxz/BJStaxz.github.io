@@ -75,6 +75,14 @@ body {
     aspect-ratio: 16/9;
     background: radial-gradient(at top left, crimson , orange);
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail-style    {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
 }
 
 .metube-item h4    {
