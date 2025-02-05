@@ -14,14 +14,25 @@ img    {
 }
 
 #main-image {
+    grid-area: main-image;
     background-color: lightgray;
     border-radius: 25px;
-    width: 100%;
-    height: 100%;
     flex-wrap: columns;
     display: flex;
+    width: 100%;
+    height: 300px;
 }
 
-div#product-content   {
- display: grid;
+#grid-container {
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr;
+    grid-template-areas: "thumbnail-placeholder main-image product-content";
+}
+
+#thumbnail-placeholder  {
+    grid-area: thumbnail-placeholder;
+}
+
+#product-content    {
+    grid-area: product-content;
 }
