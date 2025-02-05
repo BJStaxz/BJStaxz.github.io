@@ -16,7 +16,7 @@ img    {
 #main-image {
     grid-area: main-image;
     background-color: lightgray;
-    border-radius: 3px;
+    border-radius: 25px;
     flex-wrap: columns;
     display: flex;
     width: 100%;
@@ -35,4 +35,9 @@ img    {
 
 #product-content    {
     grid-area: product-content;
+}
+
+#image-style    {
+    background-color: black;
+    border-radius: 3% solid black;
 }
