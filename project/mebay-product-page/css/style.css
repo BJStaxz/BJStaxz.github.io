@@ -5,47 +5,23 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #E0E0E0;
-    color: #111111;
 }
 
-#three-columns {
-    display: grid;
-    grid-template-columns: 1fr 400px 200px 200px 1fr;
-    grid-template-areas: 
-        ". column-area-1 column-area-3 column-area-2 .";
+img    {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20%;
 }
 
-#column-1 {
-    background-color: white;
-    padding: 0px 12px;
-    grid-area: column-area-1;
-}
-
-#column-2 {
-    background-color: white;
-    padding: 0px 12px;
-    grid-area: column-area-2;
-}
-
-#column-3 {
-    background-color: white;
-    padding: 0px 12px;
-    grid-area: column-area-3;
-}
-
-#three-columns img {
-    margin-top: 24px;
+#main-image {
+    background-color: lightgray;
+    border-radius: 25px;
     width: 100%;
+    height: 100%;
+    flex-wrap: columns;
+    display: flex;
 }
 
-#three-columns h2,
-#three-columns h3 {
-    border-bottom: 2px solid #888888;
-    padding-bottom: 4px;
-    margin-bottom: 0px;
-}
-
-#three-columns p {
-    margin-top: 12px;
+div#product-content   {
+ display: grid;
 }
