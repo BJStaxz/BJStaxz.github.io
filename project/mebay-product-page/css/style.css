@@ -24,6 +24,9 @@ img    {
 }
 
 #grid-container {
+    background-color: lightgrey;
+    border: 3px solid black;
+
     display: grid;
     grid-template-columns: 150px 1fr 1fr;
     grid-template-areas: "thumbnail-placeholder main-image product-content";
@@ -40,4 +43,21 @@ img    {
 #image-style    {
     background-color: black;
     border-radius: 3% solid black;
+}
+
+#image-style {
+    background-color: blue;
+}
+
+#me  {
+ font-family: 'Times New Roman', Times, serif;
+ text-decoration: none;
+ color: crimson;
+ background-color: yellow;
+}
+
+#bay  {
+    text-decoration: none;
+    color: black;
+    background-color: beige;
 }
