@@ -31,7 +31,6 @@ body {
 #main   {
     display: flex;
     grid-area: main;
-    flex-wrap: wrap;
 }
 
 #header a  {
