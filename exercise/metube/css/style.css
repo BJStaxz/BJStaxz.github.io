@@ -13,16 +13,19 @@ body {
     grid-template-areas: 
         "header header"
         "sidebar main";
+        background-color: grey;
 }
 
 #header {
     padding: 0px 36px;
     grid-area: header;
+    background-color: darkgray;
 }
 
 #sidebar    {
     padding: 0px 24px;
     grid-area: sidebar;
+    background-color: lightskyblue;
 }
 
 #main   {
