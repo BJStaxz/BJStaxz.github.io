@@ -26,7 +26,6 @@ img    {
 #grid-container {
     background-color: lightgrey;
     border: 3px solid black;
-
     display: grid;
     grid-template-columns: 150px 1fr 1fr;
     grid-template-areas: "thumbnail-placeholder main-image product-content";
