@@ -41,5 +41,14 @@
 
 .animagram-header   {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.animagram-footer   {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    padding: 7%;
 }
