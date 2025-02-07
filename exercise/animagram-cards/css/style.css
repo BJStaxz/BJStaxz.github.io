@@ -39,11 +39,7 @@
     font-size: smaller;
 }
 
-.logo   {
-    margin-right: 35%;
-    border-top: 50%;
-}
-
-.brand-name {
-    border-top: 35%;
+.animagram-header   {
+    display: flex;
+    justify-content: space-around;
 }
