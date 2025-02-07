@@ -31,9 +31,19 @@
 }
 
 .card-style-2 h2    {
-   font-weight: 15;
+   font-weight: 500;
 }
 
 .card-style-2 p {
-    font-weight: ;
+    font-weight: 150;
+    font-size: smaller;
+}
+
+.logo   {
+    margin-right: 35%;
+    border-top: 50%;
+}
+
+.brand-name {
+    border-top: 35%;
 }
