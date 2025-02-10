@@ -4,5 +4,50 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgrey;
+}
+
+navbar,
+#footer {
+    background-color: #9f0d0d;
+}
+
+#navbar a,
+#footer a {
+    color: black;
+    text-decoration: none;
+    display: flexbox;
+    padding: 12px 12px 12px 0px;
+    margin: 10px 10px 10px 0px;
+}
+
+#navbar-column,
+.center-column,
+#footer-column {
+    width: 500px;
+    margin: 0px auto;
+}
+
+.light-container {
+    background-color: #fbe888;
+    padding: 36px 0px;
+    border: 3px solid black;
+}
+
+.dark-container {
+    background-color: #c4610b;
+    color: white;
+    padding: 36px 0px;
+    border: 3px solid white;
+}
+
+.side-by-side {
+    display: inline-block;
+    width: 49%;
+}
+
+.side-by-side img {
+    padding-left: 36px;
+    width: 100%;
 }
