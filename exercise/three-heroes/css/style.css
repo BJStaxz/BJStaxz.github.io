@@ -90,7 +90,7 @@ body {
 
 }
 
-#hero-2 {
+#hero-3 {
     background-image: url("../images/toilet.jpg");
     height: 100vh;
     background-size: cover;
@@ -103,10 +103,10 @@ body {
     margin-bottom: 0px
 }
 
-#hero-2 a  {
+#hero-3 a  {
     font-size: 14px;
     color: black;
-    position: relative;
+    position: absolute;
     display: inline-flex;
     padding: 24px;
     right: 20%;
@@ -116,14 +116,19 @@ body {
     border-radius: 24px;
 }
 
-#hero-2 h4  {
+#hero-3 h4  {
     font: size 100px;
     color: white;
-    position: relative;
+    position: absolute;
     padding: 28px;
+    right: 20%;
+    bottom: 47%;
 }
 
-#hero-2 h2  {
+#hero-3 h2  {
     font-size: 72px;
     color: white;
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
 }
