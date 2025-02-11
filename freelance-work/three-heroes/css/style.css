@@ -135,3 +135,29 @@ body {
     right: 20%;
     bottom: 50%;
 }
+
+.dark-container {
+    background-color: #c4610b;
+    color: white;
+    padding: 36px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.light-container {
+    background-color: lightgray;
+    padding: 36px 0px;
+    border-radius: 25px;
+}
+
+.side-by-side {
+    display: inline-block;
+    width: 49%;
+}
+
+.side-by-side img {
+    padding-left: 36px;
+    width: 100%;
+}
