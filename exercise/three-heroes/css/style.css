@@ -6,3 +6,124 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#hero-4 {
+    background-image: url("../images/paint.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+#hero-4 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#hero-4 h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#hero-4 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 15px;
+}
+
+#hero-5 {
+    background-image: url("../images/tools.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-5 .hero-content {
+    text-align: right;
+    position: relative;
+    top: 5%;
+    right: 10%;
+}
+
+#hero-5 h2 {
+    font-size: 100px;
+    margin-bottom: 60px;
+}
+
+#hero-5 h4 {
+    font-size: 28px;
+}
+
+#hero-5 a   {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    background-size: cover;
+}
+
+#hero-5 .hero-content   {
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    text-align: center;
+    top: 5%;
+    right: 10%;
+
+}
+
+#hero-2 {
+    background-image: url("../images/toilet.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 0px
+}
+
+#hero-2 a  {
+    font-size: 14px;
+    color: black;
+    position: relative;
+    display: inline-flex;
+    padding: 24px;
+    right: 20%;
+    bottom: 41%;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 24px;
+}
+
+#hero-2 h4  {
+    font: size 100px;
+    color: white;
+    position: relative;
+    padding: 28px;
+}
+
+#hero-2 h2  {
+    font-size: 72px;
+    color: white;
+}
