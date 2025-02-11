@@ -26,6 +26,10 @@ body {
 #hero-4 h2 {
     font-size: 72px;
     margin-bottom: 36px;
+    background-color: darkgray;
+    border-radius: 25px;
+
+
 }
 
 #hero-4 h4 {
