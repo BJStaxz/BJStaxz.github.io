@@ -118,15 +118,22 @@ body {
     color: white;
     text-decoration: none;
     position: relative;
+    margin-right: 12px;
+    margin-top: 36px;
+    margin-left: 12px;
 }
 
 #hero-4 h4  {
     font-size: 24px;
     margin: 0px;
-    padding: 10px;
 }
 
 #hero-4 h2  {
     font-size: 72px;
     margin-bottom: 36px;
+}
+
+#hero-4 .hero-content   {
+    text-align: center;
+    padding-top: 100px;
 }
