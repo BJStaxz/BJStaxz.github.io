@@ -63,3 +63,17 @@ body {
 .basic-grid-gallery img {
     width: 100%;
 }
+
+#navbar,
+#footer {
+    background-color: #9f0d0d;
+    text-align: center;
+}
+
+#navbar a,
+#footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+}
