@@ -21,6 +21,8 @@ body {
     text-align: center;
     color: white;
     padding-top: 100px;
+    background-color: darkgray;
+    border-radius: 25px;
 }
 
 #hero-4 h2 {
@@ -130,4 +132,8 @@ body {
     position: absolute;
     right: 20%;
     bottom: 50%;
+}
+
+#hero-3 a:hover {
+    background-color: lightslategrey;
 }
