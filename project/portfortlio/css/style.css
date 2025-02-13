@@ -23,7 +23,6 @@ body {
     margin: 0px auto;
 }
 
-
 #navbar a,
 #footer a {
     color: white;
@@ -36,8 +35,7 @@ body {
     font-family: "Ms Madi", serif;
     font-weight: 400;
     font-style: normal;
-  }
-
+}
   
 .tektur {
     font-family: "Tektur", serif;
@@ -45,10 +43,10 @@ body {
     font-weight: 600;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-  }
+        "wdth" 100;
+}
 
-  #hero-3 {
+#hero-3 {
     background-image: url("../images/hi-res/urban-hi-res-3q76.jpg");
     height: 100vh;
     background-size: cover;
