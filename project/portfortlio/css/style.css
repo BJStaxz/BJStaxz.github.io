@@ -82,8 +82,23 @@ body {
     width: 100%;
 }
 
-#card-section {
-    background-color: #5b00ed;
-    color: #bfefff;
-    padding: 48px;
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    background-color: gray;
+    border-radius: 25px;
+    color: white;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card a {
+    font-size: 24px;
+    margin: 24px 0px 0px;
 }
