@@ -7,8 +7,30 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: lightgray;
 }
 
+#navbar,
+#footer {
+    background-color: #9f0d0d;
+    text-align: center;
+}
+
+#navbar-column,
+.center-column,
+#footer-column {
+    width: 500px;
+    margin: 0px auto;
+}
+
+
+#navbar a,
+#footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+}
 
 .madi-regular {
     font-family: "Ms Madi", serif;
@@ -91,6 +113,11 @@ body {
     background-color: gray;
     border-radius: 25px;
     color: white;
+}
+
+.card:hover {
+    background-color: black;
+    text-decoration: none;
 }
 
 .card h3 {
