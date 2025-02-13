@@ -115,17 +115,29 @@ body {
     color: white;
 }
 
-.card:hover {
-    background-color: black;
-    text-decoration: none;
+.card a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
 }
 
 .card h3 {
     font-size: 36px;
-    margin: 0px;
 }
 
 .card a {
     font-size: 24px;
     margin: 24px 0px 0px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#card-section   {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
 }
