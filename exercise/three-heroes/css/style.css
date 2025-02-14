@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #hero-4 .hero-content {
@@ -22,7 +23,7 @@ body {
     color: white;
     padding-top: 100px;
     background-color: darkgray;
-    border-radius: 25px;
+    border-radius: 25%;
 }
 
 #hero-4 h2 {
@@ -45,7 +46,13 @@ body {
     margin-top: 36px;
     margin-right: 12px;
     margin-left: 12px;
-    border-radius: 15px;
+    border-radius: 50px;
+}
+
+#hero-4 a:hover {
+    background-color: gray;
+    font-size: 24px;
+    border-radius: 50px;
 }
 
 #hero-5 {
@@ -63,6 +70,7 @@ body {
     position: relative;
     top: 5%;
     right: 10%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #hero-5 h2 {
@@ -77,9 +85,10 @@ body {
 #hero-5 a   {
     text-decoration: none;
     color: white;
-    background-color: black;
     border-radius: 25px;
     background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
 }
 
 #hero-5 .hero-content   {
@@ -89,7 +98,13 @@ body {
     text-align: center;
     top: 5%;
     right: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+#hero-5 a:hover   {
+    color: white;
+    background-color: grey;
+    font-size: 50px;
 }
 
 #hero-3 {
@@ -114,7 +129,7 @@ body {
     bottom: 41%;
     background-color: white;
     text-decoration: none;
-    border-radius: 24px;
+    border-radius: 50px;
 }
 
 #hero-3 h4  {
@@ -135,5 +150,7 @@ body {
 }
 
 #hero-3 a:hover {
-    background-color: lightslategrey;
+    background-color: darkgrey;
+    font-size: 24px;
+    border-radius: 50px;
 }
