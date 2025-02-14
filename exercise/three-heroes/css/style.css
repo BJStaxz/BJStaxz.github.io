@@ -8,7 +8,7 @@ body {
 }
 
 #hero-4 {
-    background-image: url("../images/paint\ 7.38.22\ PM.jpg");
+    background-image: url("../images/paint.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -56,7 +56,7 @@ body {
 }
 
 #hero-5 {
-    background-image: url("../images/tools\ 7.40.17\ PM.jpg");
+    background-image: url("../images/tool.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -108,9 +108,9 @@ body {
 }
 
 #hero-3 {
-    background-image: url("../images/toilet\ 7.39.19\ PM.jpg");
+    background-image: url("../images/toilet.jpg");
     height: 100vh;
-    background-size: fill;
+    background-size: cover;
     background-position: center center;
     display: flex;
     flex-direction: column; 
