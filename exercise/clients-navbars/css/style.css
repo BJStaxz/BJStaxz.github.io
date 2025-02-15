@@ -58,7 +58,7 @@ body {
 }
 
 #navbar-top {
-   background-color: rgb(232, 153, 5);
+    background-color: rgb(232, 153, 5);
 }
 
 #navbar-top .content-column {
@@ -96,12 +96,12 @@ body {
 }
 
 #navbar-bottom {
-   background-color: black;
+    background-color: black;
 }
 
 #navbar-bottom .content-column {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 #navbar-bottom a {
