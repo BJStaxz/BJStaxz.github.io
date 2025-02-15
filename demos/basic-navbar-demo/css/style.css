@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
 }
 
-#header {
+header {
     position: sticky;
     top: 0px;
 }
@@ -71,5 +71,5 @@ body {
     width: 600px;
     margin: 48px auto;
     font-size: 24px;
-    height: 150vh;
+    height: 10vh;
 }

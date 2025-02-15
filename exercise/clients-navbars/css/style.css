@@ -4,5 +4,98 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar-1 {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-2 .cta-buttom {
+    background-color: white;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+#navbar-2   {
+    background-color: rgb(226, 226, 5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-top {
+    background: linear-gradient(to bottom, green, #3e6d3e);
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
+    padding: 24px;
+}
+
+#navbar-top #logo img {
+    width: 150px;
+}
+
+#navbar-top .cta-buttom {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, yellowgreen, olive);
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
 }
