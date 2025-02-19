@@ -246,6 +246,11 @@ a {
         display: flex;
         flex-direction: column;
     }
+
+    .card   {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Tablet Breakpoint */
@@ -258,7 +263,7 @@ a {
     }
 
     #hero   {
-        height: 600px;
+        height: 5700px;
     }
 
     #hero h1 {
@@ -279,6 +284,11 @@ a {
     }
 
     .two-cards  {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card   {
         display: flex;
         flex-direction: column;
     }
