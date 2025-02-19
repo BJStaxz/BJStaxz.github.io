@@ -6,3 +6,25 @@
 
     Good luck, and have fun!
 */
+
+.posted {
+    padding: 24px;
+    margin: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 175px;
+    width: 225px;
+    background-color: lightsalmon;
+    display: inline-block;
+    text-align: center;
+}
+
+.narrow {
+    background-color: yellowgreen;
+    display: inline-block;
+    width: 230px;
+    height: 175px;
+    padding: 24px;
+    margin: 24px;
+    display: inline-block;
+    text-align: center;
+}
