@@ -233,6 +233,10 @@ a {
         font-size: 25px;
     }
 
+    #content-container  {
+        flex-direction: column;
+    }
+
     .three-cards    {
         display: flex;
         flex-direction: column;
@@ -263,6 +267,10 @@ a {
 
     #hero h3 {
         font-size: 50px;
+    }
+
+    #content-container  {
+        flex-direction: column;
     }
 
     .three-cards    {
