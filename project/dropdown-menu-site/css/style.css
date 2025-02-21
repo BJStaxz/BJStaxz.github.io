@@ -102,6 +102,22 @@ body {
     margin-left: 12px;
 }
 
+.dark-container {
+    background-color: #c4610b;
+    color: #fbe888;
+    padding: 36px 0px;
+}
+
+.side-by-side {
+    display: inline-block;
+    width: 49%;
+}
+
+.side-by-side img {
+    padding-left: 36px;
+    width: 100%;
+}
+
 #footer {
     background: linear-gradient(to bottom, teal, #01482e);
     color: white;
