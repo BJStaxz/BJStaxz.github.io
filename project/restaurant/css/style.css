@@ -126,3 +126,8 @@ body {
     1s
     1ms;
 }
+
+.logo:hover {
+    cursor: pointer;
+    animation: spin 1s infinite;
+}
