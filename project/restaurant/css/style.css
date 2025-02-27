@@ -210,12 +210,13 @@ h1  {
 /* Tablet Breakpoint */
 @media screen and (max-width:1180px) {
     #navbar {
-        display: flex;
-        align-content: center;
+        display: inline-flex;
     }
 
     #navbar #logo   {
-      display: list-item;
+      display: flex;
+      margin-right: auto;
+      align-items: flex-end;
       
     }
     .card-content img   {
@@ -224,14 +225,15 @@ h1  {
 }
     /* Mobile Breakpoint */
 
-    @media screen and (min-width: 480px)    {
+    @media screen and (min-width: 600px)    {
         #navbar {   
             display: inline-flex;
             width: 300px;
         }
         
         #navbar #logo   {
-          display: none;
+          display: flex;
+          flex-direction: row;
         }
     
         .card-content img   {
