@@ -146,7 +146,6 @@ body {
 
 #cards-container {
     display: inline-block;
-   align-content: space-between;
 }
 
 .card {
@@ -200,7 +199,6 @@ h1  {
 
 .card-content img  {
     border-radius: 75%;
-    width: 350px;
 }
 
 .card-content p {
@@ -210,12 +208,33 @@ h1  {
 
 
 /* Tablet Breakpoint */
-@media screen and (max-width:1000px) and (min-width: 500px) {
+@media screen and (max-width:1180px) {
     #navbar {
-        width: 50%;
+        display: flex;
+        align-content: center;
     }
 
     #navbar #logo   {
+      display: list-item;
+      
+    }
+    .card-content img   {
         width: 50%;
     }
+}
+    /* Mobile Breakpoint */
+
+    @media screen and (min-width: 480px)    {
+        #navbar {   
+            display: inline-flex;
+            width: 300px;
+        }
+        
+        #navbar #logo   {
+          display: none;
+        }
+    
+        .card-content img   {
+            width: 100%;
+        }
 }
