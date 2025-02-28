@@ -208,7 +208,7 @@ h1  {
 
 
 /* Tablet Breakpoint */
-@media screen and (max-width:1180px) {
+@media screen and (max-width: 1180px) {
     #navbar {
         display: inline-flex;
     }
@@ -225,18 +225,49 @@ h1  {
 }
     /* Mobile Breakpoint */
 
-    @media screen and (min-width: 600px)    {
+    @media screen and (max-width: 600px)    {
         #navbar {   
-            display: inline-flex;
-            width: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
         }
         
         #navbar #logo   {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
+          text-align: center;
+          margin-right: 0px;
+          margin-bottom: 0px;
         }
     
         .card-content img   {
             width: 100%;
+        }
+
+        #navbar a {
+            margin: 0px 0px;
+            padding: 15px;
+        }
+
+        #navbar .cta-button {
+            margin: 0px;
+        }
+
+        #navbar-bottom  {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #footer-navbar {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
         }
 }
