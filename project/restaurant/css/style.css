@@ -219,8 +219,8 @@ h1  {
       align-items: flex-end;
       
     }
-    .card-content img   {
-        width: 50%;
+    .card-content img   { 
+        width: 75%;
     }
 }
     /* Mobile Breakpoint */
