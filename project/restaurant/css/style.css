@@ -225,7 +225,7 @@ h1  {
 }
     /* Mobile Breakpoint */
 
-    @media screen and (max-width: 600px)    {
+    @media screen and (max-width: 600px) and (min-width: 0px)   {
         #navbar {   
             flex-direction: column;
             flex-wrap: wrap;
