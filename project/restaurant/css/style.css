@@ -174,10 +174,6 @@ h1  {
     font-size: 48px;
 }
 
-img {
-    width: 50%;
-}
-
 .card a {
     text-decoration: none;
     color: black;
@@ -218,10 +214,11 @@ p {
     width: 80vw;
     max-width: 800px;
     margin: 40px auto;
-    display: flex;
+    display: grid;
     align-items: center;
     gap: 50px;
     border-bottom: 3px solid white;
+
 }
 
 .image-container {
