@@ -51,7 +51,7 @@ body {
 #navbar-bottom {
     background: linear-gradient(to bottom, black, yellow);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #navbar-bottom a {
@@ -159,15 +159,23 @@ body {
 }
 .card h2    {
     color: white;
+    font-size: 36px;
 }
 
 h6  {
     color: white;
+    font-size: 24px;
+    align-items: center;
 }
 
 h1  {
     color: white;
     text-align: center;
+    font-size: 48px;
+}
+
+img {
+    width: 50%;
 }
 
 .card a {
@@ -178,6 +186,7 @@ h1  {
     padding: 12px;
     margin-top: 36px;
 }
+
 
 .card2 a {
     transition: 
@@ -193,18 +202,40 @@ h1  {
 }
 
 .card-content   {
-    border: 3px solid white;
-    border-radius: 24px;
+  border-bottom: 3px solid white ;
 }
 
 .card-content img  {
-    border-radius: 75%;
+    border-radius: 24%;
+    background-color: grey;
 }
 
-.card-content p {
+p {
     color: white;
 }
 
+#flex-side-by-side {
+    width: 80vw;
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.image-container {
+    height: 400px;
+}
+
+#grid-side-by-side {
+    background-color: #fff0cb;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-auto-rows: 150px;
+    justify-content: center;
+    gap: 50px;
+}
 
 
 /* Tablet Breakpoint */
