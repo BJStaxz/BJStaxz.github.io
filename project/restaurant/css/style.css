@@ -239,6 +239,43 @@ p {
     text-align: center;
 }
 
+#layout {
+    width: 500px;
+    margin: 0px auto;
+   align-content: center;
+}
+
+form {
+    background-color: white;
+    padding: 36px;
+    border: 2px solid #CCCCCC;
+    border-radius: 2px;
+    color: black;
+    display: flex;
+}
+
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+
 /* Tablet Breakpoint */
 @media screen and (max-width: 1180px) {
     #navbar {
@@ -297,5 +334,9 @@ p {
         #footer-navbar {
             flex-direction: column;
             align-items: center;
+        }
+
+        form    {
+          width: auto;
         }
 }

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>restaurant</title>
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" 
+        />
+
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div id="navbar">
+                <a href="index.html" id="logo">
+                    <img 
+                        src="images/customlogo.png" 
+                        alt="Palette & Plate Gallery"
+                    >
+                </a>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="index.html">Reservation</a>
+                <a href="menu.html" class="cta-button">Order</a>
+            </div>
+            <div id="navbar-bottom">
+                <a href="menu.html">Sides</a>
+                <a href="menu.html">Main Course</a>
+                <a href="menu.html">Appetizer</a>
+                <a href="menu.html">Entree</a>
+            </div>
+            <div id="layout">
+                <header>
+                    <h1>Contact Us</h1>
+                    <p>
+                        Got a question? 
+                        We'd love to hear from you. 
+                        Send us a message and we'll
+                        respond as soon as possible.
+                    </p>
+                </header>
+                <main>
+                    <form 
+                        method="POST" 
+                        action="https://getform.io/f/599c2b13-fd57-44e4-95a1-2c722b05c5e8"
+                    >
+                        <div>
+            <div>
+                <label for="services_id">
+                    What can we help you with?
+                </label>
+                <select id="services_id" name="service_selection">
+                    <option 
+                        id="default_option" 
+                        value="none" 
+                        disabled
+                        selected
+                    >
+                        Select what we can help you with
+                    </option>
+                    <option value="gardening">
+                        Gardening
+                    </option>
+                    <option value="coding">
+                        Coding
+                    </option>
+                    <option value="web dev">
+                        Web Development
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label for="name_id">Name</label>
+                <input 
+                    type="text" 
+                    id="name_id" 
+                    name="name" 
+                    required 
+                    minlength="2"
+                    placeholder="E.g. John Smith"
+                >
+            </div>
+            <div>
+                <label for="email_id">Email</label>
+                <input 
+                    type="email" 
+                    id="email_id" 
+                    name="email"
+                    required
+                    placeholder="E.g. jane.doe@gmail.com"
+                >
+            </div>
+            <div>
+                <label for="message_id">Message</label>
+                <textarea 
+                    id="message_id" 
+                    name="message"
+                    placeholder="I would like you to..."></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h2>Oh, you want more?</h2>
+        <p>
+            To make a form like this functional, try creating
+            an account at 
+            <a href="https://getform.io/" target="_blank">
+                getform.io 
+            </a>.
+        </p>
+            <div id="footer">
+                <div id="footer-navbar">
+                    <span>&copy; 2025 Palette & Plate Gallery</span>
+                    <a href="index.html">About US</a>
+                    <a href="index.html">Careers</a>
+                    <a href="contact.html">Contact US</a>
+                </div>
+            </div>
+        </body>
+    </html>
