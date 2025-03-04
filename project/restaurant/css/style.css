@@ -123,8 +123,8 @@ body {
 #hero-2 a:hover {
     font-size: 28px;
     transition: 
-    1s
-    1ms;
+        1s
+        1ms;
 }
 
 #logo:hover img {
@@ -132,14 +132,14 @@ body {
     animation: spin 1s infinite;
 }
 
-@keyframes spin{
-    0%{
+@keyframes spin {
+    0%  {
         transform: scaleX(1);
     }
-    50%{
+    50% {
         transform: scaleX(-1);
     }
-    100%{
+    100%    {
         transform: scaleX(1);
     }
 }
@@ -183,7 +183,6 @@ h1  {
     margin-top: 36px;
 }
 
-
 .card2 a {
     transition: 
         background-color 0.5s,
@@ -198,7 +197,7 @@ h1  {
 }
 
 .card-content   {
-  border-bottom: 3px solid white ;
+    border-bottom: 3px solid white ;
 }
 
 .card-content img  {
@@ -222,7 +221,7 @@ p {
 }
 
 .image-container {
-   height: 50px;
+    height: 50px;
 }
 
 #grid-side-by-side {
@@ -242,7 +241,7 @@ p {
 #layout {
     width: 500px;
     margin: 0px auto;
-   align-content: center;
+    align-content: center;
 }
 
 form {
@@ -275,7 +274,6 @@ textarea {
     font-family: sans-serif;
 }
 
-
 /* Tablet Breakpoint */
 @media screen and (max-width: 1180px) {
     #navbar {
@@ -283,60 +281,60 @@ textarea {
     }
 
     #navbar #logo   {
-      display: flex;
-      margin-right: auto;
-      align-items: flex-end;
-      
+        display: flex;
+        margin-right: auto;
+        align-items: flex-end;
     }
+
     .card-content img   { 
         width: 75%;
     }
 }
-    /* Mobile Breakpoint */
+/* Mobile Breakpoint */
 
-    @media screen and (max-width: 600px) and (min-width: 0px)   {
-        #navbar {   
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #navbar #logo   {
-          display: flex;
-          flex-direction: column;
-          text-align: center;
-          margin-right: 0px;
-          margin-bottom: 0px;
-        }
+@media screen and (max-width: 600px) and (min-width: 0px)   {
+    #navbar {   
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
     
-        .card-content img   {
-            width: 100%;
-        }
+    #navbar #logo   {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
 
-        #navbar a {
-            margin: 0px 0px;
-            padding: 15px;
-        }
+    .card-content img   {
+        width: 100%;
+    }
 
-        #navbar .cta-button {
-            margin: 0px;
-        }
+    #navbar a {
+        margin: 0px 0px;
+        padding: 15px;
+    }
 
-        #navbar-bottom  {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
+    #navbar .cta-button {
+        margin: 0px;
+    }
 
-        #footer-navbar {
-            flex-direction: column;
-            align-items: center;
-        }
+    #navbar-bottom  {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
-        form    {
-          width: auto;
-        }
+    #footer-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form    {
+        width: auto;
+    }
 }
